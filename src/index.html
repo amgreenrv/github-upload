@@ -1,0 +1,133 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toy Project | Week 1</title>
+</head>
+
+<body>
+  <div class="page-container">
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="container flex">
+        <button class="mbtn">
+          My Profile
+        </button>
+        <nav>
+          <ul>
+            <li><a href="#">Friends</a></li>
+            <li><a href="#">Settings</a></li>
+          </ul>
+        </nav>
+      </div> <!-- container flex end -->
+    </div><!-- navbar end -->
+
+    <div class="content-box">
+      <div class="image-bar">
+        <img src="https://i.ibb.co/f43P7Dy/circle.png" alt="profile Pic">
+      </div><!-- image-bar end -->
+      <div id="title">
+        <h1>Amanda Green</h1>
+      </div><!-- title end -->
+      <div id="subtitle">
+        <h2><span>Technical Project Manager</span></h2>
+      </div>
+      <!--subtitle end -->
+      <div id="para">
+         <p>Amanda Green is currently a Technical Project Manager at Red Ventures on the Education vertical. In 2014, Amanda began working as a Web Publisher at a small startup company called Consumer Media Network (CMN) which ran lead gen for a portfolio of sites. In 2016, CMN became Higher Education and turned its focus to audiences looking for an online education and distance degree options.</p>
+        <p>In 2021, Amanda transitioned to a TPM role supporting RVEDU's Data teams. Amanda first started coding as a young teen, building geocities pages for her many characters featured in the unfinished works of fiction written over the following decades.</p>
+
+      </div> <!-- para end -->
+    </div><!-- content-box end -->
+
+    <!--Submission Form-->
+    <div class="subform grid">
+      <div class="row1">
+        <img src="https://cdn0.iconfinder.com/data/icons/elasto-online-store/26/00-ELASTOFONT-STORE-READY_user-circle-1024.png" alt="submission form icon">
+      </div><!-- row1 end -->
+      <div class="row2">
+        <form id="comment-box">
+          <div id="message"></div>
+          <input id="name" type="text" placeholder="Name">
+          <input id="date" type="date"><br>
+          <textarea id="comment">Comment</textarea><br>
+          <input id="enter" type="submit" value="Submit">
+        </form>
+      </div><!-- row2 end -->
+    </div><!-- subform end -->
+
+    <!--Blog Comment Submissions-->
+    <div class="blog-table">
+      <table class="table-sortable" id="comment-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Posts</th>
+            <th>Date</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John Doe</td>
+            <td>Hello world!</td>
+            <td>3/5/2021</td>
+            <td id="td-select">
+              <form class="blog">
+                <select class="form-select">
+                  <option value=""></option>
+                  <option value="post-edit">Edit Post</option>
+                  <option value="post-save">Save Post</option>
+                  <option value="post-delete">Delete Post</option>
+                </select>
+              </form>
+            </td>
+          </tr>
+          <tr>
+            <td>John Doe</td>
+            <td>Happy Birthday Mom!</td>
+            <td>2/21/2021</td>
+            <td>
+              <form class="blog">
+                <select class="form-select">
+                  <option value=""></option>
+                  <option value="post-edit">Edit Post</option>
+                  <option value="post-save">Save Post</option>
+                  <option value="post-delete">Delete Post</option>
+                </select>
+              </form>
+            </td>
+          </tr>
+          <tr>
+            <td>John Doe</td>
+            <td>The site looks great!</td>
+            <td>1/15/2021</td>
+            <td>
+              <form class="blog">
+                <select class="form-select">
+                  <option value=""></option>
+                  <option value="post-edit">Edit Post</option>
+                  <option value="post-save">Save Post</option>
+                  <option value="post-delete">Delete Post</option>
+                </select>
+              </form>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div><!-- blog-table end -->
+
+    <!--Footer-->
+    <footer>
+      <ul class="social">
+        <li><a href="#"><img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" alt="facebook logo"></a></li>
+        <li><a href="#"><img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/twitter-512.png" alt="twitter logo"></a></li>
+        <li><a href="#"><img src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/instagram2-512.png" alt="instagram logo"></a></li>
+      </ul>
+    </footer>
+
+  </div> <!-- page container end -->
+</body>
+
+</html>
